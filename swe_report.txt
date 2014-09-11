@@ -1,0 +1,69 @@
+GENERAL APPROACH
+
+-I have used some pseudo code so that i can make my design easier. I have also used UML diagrams especially Class Diagrams to Optimize the code and decrease redundancy.
+	
+-I have written my simulation in Java. I used the Netbeans IDE, JDK & JRE 1.7 bundle to develop and execute my simulation. The IDE has built in debugger to debug the files.
+
+-BULK COMPLEXITIES
+	- # of Files   	   :   15
+	- # of Classes     :   20
+	- # of Methods     :  126
+	- # of Code	   : 2873
+	- NOSM		   :   49
+	- NOSF		   :  104
+
+-----------------------------------------------------------------------------------
+File                                (NOB)blank     (NOC)comment    (EXS)code
+-----------------------------------------------------------------------------------
+Spooler.java                            76             56            477
+CPU.java                                80             65            362
+Variables.java                          40             67            249
+ErrorHandler.java                       34             38            150
+ProcessManager.java                     12             31            142
+PageFaultHandler.java                   28             25            105
+PCB.java                                17             11             98
+Memory.java                             17              9             86
+Stack.java                              18              4             76
+PMT.java                                10             27             72
+Queue.java                              17             35             63
+DiskManager.java                         5             19             50
+Loader.java                             17             14             46
+Page.java                                9             24             43
+SYSTEM.java                              9             16             24
+-----------------------------------------------------------------------------------
+SUM:                                   389            441           2043
+-----------------------------------------------------------------------------------
+	
+-----------------------------------------------------------------
+File                                   NOM            NOD        
+-----------------------------------------------------------------
+Spooler.java                            18             66        
+CPU.java                                 8             76        
+Variables.java                          16             20        
+ErrorHandler.java                        5             29        
+ProcessManager.java                      6             14        
+PageFaultHandler.java                    7             11        
+PCB.java                                 3              3        
+Memory.java                              6              8        
+Stack.java                              12              4        
+PMT.java                                 8              6        
+Queue.java                              14              5        
+DiskManager.java                         5              8        
+Loader.java                              3              3        
+Page.java                                7              5        
+SYSTEM.java                              2              3        
+------------------------------------------------------------------
+SUM:                                   126             261         
+------------------------------------------------------------------
+
+NOB = # of blank lines, NOC= # of comments, EXS= # of Executable Statements
+NOM = # of Methods, NOD= # of decisions, NOSF = # of Static Variables
+NOSM = # of Static Methods 
+
+-		DESIGNING : 80 Working Hours
+		CODING 	  : 40 Working Hours
+		TESTING	  : 40 Working Hours
+		
+- As Java being platform independent my simulation can work in other operating systems (Windows or Linux)
+
+- As Java being an object oriented language so that to make my simulation more modular I prefer Java to others. Making modules as individual classes helped me lot in debugging. As if there is any problem with a single class i can change only that class rather than making the code more complex to understand
